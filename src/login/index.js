@@ -18,9 +18,9 @@ export default function Login() {
       <TextField label="Username" />
       <TextField label="Password" type="password" />
       <Button variant="contained">Log in</Button>
-      <Typography>
+      <Typography align="center">
         Don't have an account?{" "}
-        <Link onClick={() => navigate("/register")}>Resgister</Link>
+        <Link onClick={() => navigate("/register")}>Register</Link>
       </Typography>
     </Card>
   );
